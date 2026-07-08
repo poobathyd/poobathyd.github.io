@@ -37,3 +37,5 @@ No build step needed — it's plain HTML/CSS/JS, served directly by GitHub Pages
 ## Updating content
 
 Edit the HTML files directly (each section is a `card` block), commit, and push — changes go live automatically.
+
+<!-- rebuild trigger -->
