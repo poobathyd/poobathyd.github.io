@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience — Poobathy D, PhD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a class="logo" href="index.html">Poobathy D</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="experience.html" class="active">Experience</a>
+      <a href="education.html">Education</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <h1>Professional Experience</h1>
+    <p>Eight years across AI research, LLM fine-tuning, and computer science education.</p>
+  </header>
+
+  <main>
+    <h2 class="section-title">Career Timeline</h2>
+    <div class="timeline">
+      <div class="card c1 reveal">
+        <h3>Domain Expert — Sustainable Living Labs</h3>
+        <div class="meta">Nov 2025 – Feb 2026 · Contract</div>
+        <ul>
+          <li>Agentic AI: designing content for a leading American multinational technology company.</li>
+        </ul>
+      </div>
+      <div class="card c2 reveal">
+        <h3>Domain Expert — Turing</h3>
+        <div class="meta">Nov 2024 – Present · Remote</div>
+        <ul>
+          <li>Project STEM: fine-tuning LLM models to enhance advanced reasoning capabilities for research applications.</li>
+          <li>Project VLA: fine-tuned industrial robots to correct operational mistakes and optimize suboptimal handling patterns.</li>
+          <li>Project MM-HLE: designed high-complexity problems for the Humanity's Last Exam dataset to test state-of-the-art models.</li>
+        </ul>
+      </div>
+      <div class="card c3 reveal">
+        <h3>Deputy Professor — Sunstone Education Technology Pvt Ltd</h3>
+        <div class="meta">Jul 2023 – Sept 2024 · Bengaluru</div>
+        <ul>
+          <li>Department In-Charge of the BCA program, overseeing curriculum design and academic operations.</li>
+          <li>Designed a comprehensive computer science curriculum and tracked course progress.</li>
+          <li>Courses: Data Structures, Problem Solving, Algorithms, Python programming.</li>
+        </ul>
+      </div>
+      <div class="card c4 reveal">
+        <h3>Assistant Professor — NGM College</h3>
+        <div class="meta">Aug 2018 – May 2023 · Coimbatore</div>
+        <ul>
+          <li>Conducted academic and research activities in the Computer Science department.</li>
+          <li>Coordinator for the Institution Innovation Council, promoting research and innovation.</li>
+          <li>Established research collaborations and mentored students in technical projects.</li>
+          <li>Courses: Computer Networks, Operating Systems, Cyber Security, Data Structures.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 class="section-title">Research Experience</h2>
+    <div class="grid">
+      <div class="card c5 reveal">
+        <h3>PhD Research Scholar — NGM College</h3>
+        <div class="meta">2015 – 2023</div>
+        <ul>
+          <li>Thesis: advanced CNN algorithms for medical image analysis and optimization.</li>
+          <li>Developed novel object detection algorithms with superior noise performance.</li>
+          <li>Created automated segmentation systems for brain MRI analysis.</li>
+          <li>Impact: 6 international publications, 2 patents filed.</li>
+        </ul>
+      </div>
+      <div class="card c2 reveal">
+        <h3>MPhil Research Scholar — NGM College</h3>
+        <div class="meta">2013 – 2015</div>
+        <ul>
+          <li>Specialized in satellite weather image processing and computer vision techniques.</li>
+          <li>Developed real-time edge detection systems for weather imagery analysis.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Poobathy D · <a href="https://www.linkedin.com/in/poobathy/">LinkedIn</a> · <a href="https://github.com/poobathyd">GitHub</a></p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && e.target.classList.add('visible')), { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
